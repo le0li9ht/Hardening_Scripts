@@ -17,7 +17,7 @@ fi
 
 #run the scan
 pass_audit() {
-echo -e "**********************\nHi if you have a different ssh port please pass the ssh port using -p arguument as shown\n./$0 4222\n*******************\n"
+echo -e "**********************\nHi if you have a different ssh port please pass the ssh port as first arguument as shown\n./$0 4222\n*******************\n"
 port=22
 if ! [ $# -eq 0 ]
   then
